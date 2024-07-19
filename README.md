@@ -1,34 +1,34 @@
-# Obj_detection_using_YOLOV4
+# Object Detection Using YOLOv4
 
-#Description
-Smart-Object-Analyzer is a Python application that performs real-time object detection using OpenCV, Python, and YOLO (You Only Look Once) technology. The application utilizes the powerful capabilities of YOLO for detecting and recognizing objects within images or video streams.
+## Title
+**Object Detection using OpenCV, Python, and YOLO**
 
-#Features
-Real-Time Object Detection: Utilizes YOLO pre-trained models for real-time object detection in images or video streams.
-User Interface with Tkinter: Provides a user-friendly interface using Tkinter for easy interaction and control of the object detection process.
-Interactive Object Detection: Allows users to click on a specific region of the frame to initiate object detection within that region.
-Audio Feedback: Provides audio feedback using pyttsx3 to announce the detection of objects in the frame.
-Data Logging: Logs detected objects and timestamps to a CSV file for further analysis and tracking.
+## Description
+Project for object detection using OpenCV, Python, and YOLO (You Only Look Once) technology. The project utilizes the powerful capabilities of YOLO for real-time object detection and recognition within images or video streams.
 
-#Usage
-Clone the repository to your local machine.
-Install the necessary dependencies:
-Download the YOLOv4-tiny model weights and configuration files and place them in the dnn_model/ directory.
-Run the main.py script to start the Smart-Object-Analyzer application.
-Click on the green region in the video feed to detect objects within that region.
-Detected objects will be announced through audio feedback, and their details will be logged to the detected_objects.csv file.
+## Features
+- **Object Detection:** Utilizes YOLO pre-trained models for detecting a wide range of objects in images or video streams.
+- **Real-time Detection:** Implements real-time object detection, enabling users to process video streams in real-time.
+- **Customizable:** Offers flexibility for users to fine-tune parameters such as confidence thresholds, input size, and model architecture.
+- **User Interface:** Provides a user-friendly interface for easy interaction and visualization of the detected objects.
+- **ROI-based Detection:** Supports defining regions of interest (ROIs) for focused object detection within specific areas of the input frame.
 
-#Requirements
-Python 3
-OpenCV
-pyttsx3
+## Technologies Used
+- **OpenCV:** A popular computer vision library used for image and video processing tasks.
+- **Python:** A high-level programming language known for its simplicity and versatility.
+- **YOLO (You Only Look Once):** State-of-the-art object detection system known for its speed and accuracy.
 
-#Contributing
-Contributions to the project are welcome! If you have any suggestions, bug fixes, or feature enhancements, feel free to open an issue or submit a pull request.
+## Usage
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies specified in the `requirements.txt` file.
+3. Run the main Python script to start the object detection process.
+4. Customize the parameters as needed, such as confidence thresholds, input source (image or video), and ROI settings.
 
-#License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Contributions
+Contributions to the project are welcome! Feel free to submit pull requests for bug fixes, feature enhancements, or optimizations.
 
-#Acknowledgments
+## License
+This project is licensed under the MIT License, allowing for free use, modification, and distribution.
+
+## Acknowledgments
 This project builds upon the work of the OpenCV, Python, and YOLO communities, whose contributions have made advanced object detection accessible to developers worldwide.
-Special thanks to the developers of Tkinter and pyttsx3 for providing user interface and audio feedback capabilities.

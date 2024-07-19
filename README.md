@@ -20,7 +20,7 @@ Project for object detection using OpenCV, Python, and YOLO (You Only Look Once)
 
 ## Usage
 1. Clone the repository to your local machine.
-2. Install the necessary dependencies specified in the `requirements.txt` file.
+2. Install the necessary dependencies.
 3. Run the main Python script to start the object detection process.
 4. Customize the parameters as needed, such as confidence thresholds, input source (image or video), and ROI settings.
 
